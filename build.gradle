@@ -1,0 +1,17 @@
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+
+	testCompile 'junit:junit:4.12'
+	testCompile 'org.testfx:testfx-core:4.0.1-alpha'
+	testCompile 'org.testfx:testfx-junit:4.0.1-alpha'
+	testCompile 'org.loadui:testFx:3.1.2'
+
+    
+    
+}
